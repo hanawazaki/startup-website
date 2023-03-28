@@ -5,13 +5,18 @@ module.exports = {
     extend: {
       colors: {
         'cstGreen': '#74C69D',
-        'cstBlack': '#212529'
+        'cstBlack': '#212529',
       },
       spacing: {
         '30': '30px',
+        '50': '50px',
         '70': '70px',
         '120': '120px',
+        '130': "130px",
         '132': "132px",
+        '230': '230px',
+        '260': '260px',
+        '356': '356px',
         '644': "644px"
       },
       fontSize: {
@@ -32,6 +37,9 @@ module.exports = {
       },
       letterSpacing: {
         '5': '5px'
+      },
+      boxShadow: {
+        'card': '3px 4px 12px 1px rgba(0, 0, 0, 0.25);'
       }
 
     }

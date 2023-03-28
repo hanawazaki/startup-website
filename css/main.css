@@ -34,7 +34,7 @@ body {
   }
 
   .subheading {
-    @apply text-16 font-work-sans font-normal leading-125;
+    @apply text-20 font-work-sans font-normal leading-125;
   }
 
   .label {
@@ -50,6 +50,7 @@ body {
   }
 
   .btn-black {
+    @apply px-12 py-3 bg-black text-white rounded-md;
   }
 
   .btn-white {
@@ -60,6 +61,6 @@ body {
 @screen md {
   .hero {
     padding-top: 140px;
-    padding-bottom: 140px;
+    padding-bottom: 82px;
   }
 }
