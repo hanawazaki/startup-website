@@ -13,31 +13,53 @@ body {
   .heading1 {
     @apply text-40 font-crimson-text font-bold leading-125;
   }
+
   .heading2 {
     @apply text-32 font-crimson-text font-bold leading-125;
   }
+
   .heading3 {
     @apply text-28 font-crimson-text font-bold leading-125;
   }
+
   .heading4 {
     @apply text-24 font-crimson-text font-bold leading-125;
   }
   .heading5 {
     @apply text-20 font-crimson-text font-bold leading-125;
   }
+
   .heading6 {
     @apply text-40 font-crimson-text font-bold leading-125;
   }
+
   .subheading {
     @apply text-16 font-work-sans font-normal leading-125;
   }
+
   .label {
     @apply text-16 font-work-sans font-bold leading-125 tracking-5;
   }
+
   .body-regular {
     @apply text-15 font-work-sans font-normal leading-125;
   }
+
   .body-bold {
     @apply text-15 font-work-sans font-bold leading-125;
+  }
+
+  .btn-black {
+  }
+
+  .btn-white {
+    @apply px-12 py-3 bg-white rounded-md;
+  }
+}
+
+@screen md {
+  .hero {
+    padding-top: 140px;
+    padding-bottom: 140px;
   }
 }
