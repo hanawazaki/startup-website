@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap");
+body {
+  font-family: "Work Sans", sans-serif;
+  /* font-family: 'Crimson Text', serif; */
+}
+
+@layer components {
+  .heading1 {
+    @apply text-40 font-crimson-text font-bold leading-125;
+  }
+  .heading2 {
+    @apply text-32 font-crimson-text font-bold leading-125;
+  }
+  .heading3 {
+    @apply text-28 font-crimson-text font-bold leading-125;
+  }
+  .heading4 {
+    @apply text-24 font-crimson-text font-bold leading-125;
+  }
+  .heading5 {
+    @apply text-20 font-crimson-text font-bold leading-125;
+  }
+  .heading6 {
+    @apply text-40 font-crimson-text font-bold leading-125;
+  }
+  .subheading {
+    @apply text-16 font-work-sans font-normal leading-125;
+  }
+  .label {
+    @apply text-16 font-work-sans font-bold leading-125 tracking-5;
+  }
+  .body-regular {
+    @apply text-15 font-work-sans font-normal leading-125;
+  }
+  .body-bold {
+    @apply text-15 font-work-sans font-bold leading-125;
+  }
+}
