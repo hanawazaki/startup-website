@@ -57,10 +57,3 @@ body {
     @apply px-12 py-3 bg-white rounded-md;
   }
 }
-
-@screen md {
-  .hero {
-    padding-top: 140px;
-    padding-bottom: 82px;
-  }
-}
