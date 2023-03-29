@@ -6,10 +6,13 @@ module.exports = {
       colors: {
         'cstGreen': '#74C69D',
         'cstBlack': '#212529',
+        'cstGrey': '#EEEEEE',
       },
       spacing: {
+        '2.5': '2.5rem',
         '10': '10px',
         '18': '18px',
+        '21': '21px',
         '30': '30px',
         '50': '50px',
         '52': '52px',
@@ -44,6 +47,9 @@ module.exports = {
       },
       boxShadow: {
         'card': '3px 4px 12px 1px rgba(0, 0, 0, 0.25);'
+      },
+      borderRadius: {
+        '5': '5px'
       }
 
     }
